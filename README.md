@@ -1,21 +1,33 @@
-# monte-carlo-epidemic-simulation
-Monte Carlo simulation model implemented in Python to analyse stochastic epidemic behaviour and infection dynamics.
 # Monte Carlo Epidemic Simulation
 
 ## Overview
 
-This project implements a Monte Carlo simulation model in Python to analyse stochastic epidemic behaviour within a population.
+This project was developed as part of university coursework within a Physics degree and focuses on implementing a Monte Carlo simulation model in Python to analyse stochastic epidemic behaviour within a population.
 
-The simulation models the spread of infection over time using probabilistic interactions between individuals and demonstrates how random variation can influence epidemic outcomes.
+The simulation models the probabilistic spread of infection over time and investigates how random variation can influence epidemic outcomes. The assignment emphasised computational modelling, numerical analysis, statistical simulation, and the interpretation of simulated datasets.
+
+---
+
+## Assignment Context
+
+This work was completed as part of a computational modelling assignment involving the application of stochastic simulation techniques to real-world systems.
+
+The project required:
+- Designing and implementing a simulation model
+- Applying probabilistic methods computationally
+- Analysing trends across repeated simulations
+- Interpreting statistical behaviour within generated datasets
+- Presenting and visualising simulation outputs clearly
 
 ---
 
 ## Objectives
 
 - Simulate infection spread within a population
-- Investigate stochastic behaviour in epidemic modelling
-- Analyse trends across repeated simulations
-- Visualise changes in infection dynamics over time
+- Model stochastic interactions probabilistically
+- Analyse how random variation affects epidemic behaviour
+- Visualise infection trends over time
+- Compare outcomes across repeated simulations
 
 ---
 
@@ -31,28 +43,18 @@ The simulation models the spread of infection over time using probabilistic inte
 - Random sampling
 - Statistical averaging
 - Time-series analysis
+- Numerical modelling
 - Data visualisation
 
 ---
 
 ## Simulation Workflow
 
-1. Initialise population states
-2. Simulate probabilistic infection interactions
+1. Initialise population infection states
+2. Simulate probabilistic interactions between individuals
 3. Update infection and recovery states over time
-4. Repeat simulations multiple times
-5. Analyse and visualise average trends
-
----
-
-## Skills Demonstrated
-
-- Computational modelling
-- Statistical simulation
-- Numerical analysis
-- Scientific programming
-- Data visualisation
-- Probabilistic reasoning
+4. Repeat simulations across multiple iterations
+5. Analyse average epidemic behaviour and variability
 
 ---
 
@@ -61,4 +63,25 @@ The simulation models the spread of infection over time using probabilistic inte
 - Infection curves over time
 - Comparison between simulation runs
 - Averaged epidemic trends
-- Stochastic variability analysis
+- Visualisation of stochastic variation
+
+---
+
+## Skills Demonstrated
+
+- Computational modelling
+- Statistical simulation
+- Scientific programming
+- Numerical analysis
+- Probabilistic reasoning
+- Data visualisation
+- Independent problem solving
+
+---
+
+## Future Improvements
+
+- Addition of more complex infection dynamics
+- Variable transmission probabilities
+- Population movement modelling
+- Statistical comparison between intervention strategies
